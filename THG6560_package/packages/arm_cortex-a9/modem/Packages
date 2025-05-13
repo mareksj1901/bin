@@ -1,0 +1,56 @@
+Package: fibocom-dial
+Version: 1
+Depends: libc
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 53383
+Filename: fibocom-dial_1_arm_cortex-a9.ipk
+Size: 54122
+SHA256sum: aa5ab7723c9c06b203b161c61f68bb5b5f79bd9e5a5fb56ba3a6f003168f8b4f
+Description:  Fibocom Dial
+
+Package: luci-app-sms-tool
+Version: 1.0.0
+Depends: libc, sms-tool, luci-compat, kmod-usb-serial, kmod-usb-serial-option
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 23071
+Filename: luci-app-sms-tool_1.0.0_all.ipk
+Size: 23933
+SHA256sum: 4ea04627c927b4d6865f4a91afb26424c821eff8958cafbbe7b0ba9a304b313d
+Description:  LuCI Support for sms_tool
+
+Package: luci-app-usbmodem
+Version: git-25.050.17402-0871651
+Depends: libc, luci-compat, quectel-CM-5G, kmod-usb-acm, kmod-usb-net-cdc-ether, kmod-usb-net-cdc-mbim, kmod-usb-net-qmi-wwan, kmod-usb-net-rndis, kmod-usb-serial-option, kmod-usb-wdm, kmod-qmi_wwan_f, kmod-qmi_wwan_q, usbutils
+Section: luci
+Architecture: all
+Installed-Size: 2080
+Filename: luci-app-usbmodem_git-25.050.17402-0871651_all.ipk
+Size: 2997
+SHA256sum: 9e7630f28fd7efb66287528c611c0489b31d502b66b5d81115623d3be5077aa1
+Description:  Modem Server
+
+Package: quectel-CM-5G
+Version: 1.6.4-1
+Depends: libc
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 63305
+Filename: quectel-CM-5G_1.6.4-1_arm_cortex-a9.ipk
+Size: 64017
+SHA256sum: 04699208963b50cfe709cc6792a1cc48472cc4d1e52187280c190c12d0d5ed8d
+Description:  quectel-CM-5G app
+
+Package: sms-tool
+Version: 2021-08-24-57a68d07-1
+Depends: libc
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 7995
+Filename: sms-tool_2021-08-24-57a68d07-1_arm_cortex-a9.ipk
+Size: 8746
+SHA256sum: 1d95384794331b674cf88ab30fd7c8c9532540a2167508870bbe9fb876b38d1b
+Description:  SMS Tool for 3G/4G modem
+

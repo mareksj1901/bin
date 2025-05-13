@@ -1,0 +1,1999 @@
+Package: autoconf
+Version: 2.70-2
+Depends: libc, m4, perl, perlbase-data, perlbase-file, perlbase-getopt, perlbase-dynaloader, perlbase-text
+License: GPL-3.0-or-later
+Section: devel
+Architecture: arm_cortex-a9
+Installed-Size: 550522
+Filename: autoconf_2.70-2_arm_cortex-a9.ipk
+Size: 550744
+SHA256sum: f7b44f9750789ce4cbc85ad80ff02750be4ea28701e9395d34365c55ecd4669b
+Description:  Autoconf is an extensible package of M4 macros that produce shell scripts to
+ automatically configure software source code packages.
+
+Package: automake
+Version: 1.16.3-1
+Depends: libc, autoconf, perlbase-thread, perlbase-attributes
+License: GPL-3.0-or-later
+Section: devel
+CPE-ID: cpe:/a:gnu:automake
+Architecture: arm_cortex-a9
+Installed-Size: 389742
+Filename: automake_1.16.3-1_arm_cortex-a9.ipk
+Size: 390730
+SHA256sum: a1f54acc1f70387f6ef4ca015828ed21f5d91dcf51e7f1fae6ac494db548c8f6
+Description:  Automake is a tool for automatically generating Makefile.in files compliant
+ with the GNU Coding Standards.
+
+Package: bash
+Version: 5.1.16-1
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:bash
+Architecture: arm_cortex-a9
+Installed-Size: 413236
+Filename: bash_5.1.16-1_arm_cortex-a9.ipk
+Size: 413821
+SHA256sum: dec8976c684a7cb3df5fb6384350715a699065823b29b15bc065bdb7b0471542
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 8544
+Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a9.ipk
+Size: 9350
+SHA256sum: 421aeded81562e6533f7225087432d4891f433e4ba98fd3bfdee1bb209b648f3
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: conntrack
+Version: 1.4.6-3
+Depends: libc, libnetfilter-conntrack3, libnetfilter-cttimeout1, libnetfilter-cthelper0, libnetfilter-queue1
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:netfilter:conntrack-tools
+Architecture: arm_cortex-a9
+Installed-Size: 20303
+Filename: conntrack_1.4.6-3_arm_cortex-a9.ipk
+Size: 21183
+SHA256sum: c65e534850c35d1771fb683973639fdd4d0cabc976fe1cba97ef98800dfa7f5d
+Description:  Conntrack is a userspace command line program targeted at system
+ administrators. It enables them to view and manage the in-kernel
+ connection tracking state table.
+
+Package: coreutils-stty
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9
+Installed-Size: 26837
+Filename: coreutils-stty_9.0-2_arm_cortex-a9.ipk
+Size: 27713
+SHA256sum: a6cb67bbe4d643124014fc737f691820a98989ed28a24e1f939de9319802e264
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils
+Version: 9.0-2
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9
+Installed-Size: 106
+Filename: coreutils_9.0-2_arm_cortex-a9.ipk
+Size: 995
+SHA256sum: b7cf1361f71909a1e7756aa852c86ca943d2fc2ad87ada48512154699cade0df
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.83.1-3
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: arm_cortex-a9
+Installed-Size: 55693
+Filename: curl_7.83.1-3_arm_cortex-a9.ipk
+Size: 56380
+SHA256sum: 623a36d7d7cf86b8930112ad4628d0004d9f13b6ef150dfcedc83953f3385877
+Description:  A client-side URL transfer utility
+
+Package: dbus
+Version: 1.13.18-12
+Depends: libc, libexpat, libdbus
+License: AFL-2.1
+Section: utils
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9
+Installed-Size: 105512
+Filename: dbus_1.13.18-12_arm_cortex-a9.ipk
+Size: 105624
+SHA256sum: c95198a78c7868df4e4134f3d28f60db6b8acd7e740c9b566b9137abb9bd00f1
+Description:  Simple interprocess messaging system (daemon)
+
+Package: glib2
+Version: 2.70.5-4
+Depends: libc, zlib, libpthread, libffi, libattr, libpcre
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnome:glib
+Architecture: arm_cortex-a9
+Installed-Size: 1086928
+Filename: glib2_2.70.5-4_arm_cortex-a9.ipk
+Size: 1081306
+SHA256sum: dc1780277f48f2903a65a35e441926429bc7a6d1f1d3de859c504bb28f7406e2
+Description:  The GLib library of C routines
+
+Package: i2c-tools
+Version: 4.3-1
+Depends: libc, libi2c
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 20129
+Filename: i2c-tools_4.3-1_arm_cortex-a9.ipk
+Size: 20919
+SHA256sum: 8737c1e61ee95106edecf48653b8a66e13d76726d0f9eff0d64e253bce16ab60
+Description:  This package contains an heterogeneous set of I2C tools for Linux. These tools
+ were originally part of the lm-sensors package.
+
+Package: jsoncpp
+Version: 1.9.5-1
+Depends: libc, libstdcpp6
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 54451
+Filename: jsoncpp_1.9.5-1_arm_cortex-a9.ipk
+Size: 54982
+SHA256sum: 0db51b3ad58b02169e6f4ba8aec67c62eeef39343c6d74d49b666d8bc704ba11
+Description:  JsonCpp is a C++ library that allows manipulating
+ JSON values, including serialization and
+ deserialization to and from strings. It can also
+ preserve existing comment in
+ unserialization/serialization steps, making it a
+ convenient format to store user input files.
+
+Package: lftp
+Version: 4.9.2-2
+Depends: libc, libncurses6, libopenssl1.1, libreadline8, libstdcpp6, libexpat, zlib
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:lftp_project:lftp
+Architecture: arm_cortex-a9
+Installed-Size: 505492
+Filename: lftp_4.9.2-2_arm_cortex-a9.ipk
+Size: 506284
+SHA256sum: c20ab8ac8b326150b0272c59d786e473ef7782031316c329830c4791b81c005e
+Description:  LFTP is a sophisticated file transfer program with command line interface. It supports FTP, HTTP, FISH, SFTP, HTTPS and FTPS protocols. GNU Readline library is used for input.
+ Every operation in lftp is reliable, that is any non-fatal error is handled and the operation is retried automatically. So if downloading breaks, it will be restarted from the point automatically. Even if ftp server does not support REST command, lftp will try to retrieve the file from the very beginning until the file is transferred completely. This is useful for dynamic-ip machines which change their IP addresses quite often, and for sites with very bad internet connectivity.
+ 
+ lftp has shell-like command syntax allowing you to launch several commands in parallel in background (&). It is also possible to group commands within () and execute them in background. All background jobs are executed in the same single process. You can bring a foreground job to background with ^Z (c-z) and back with command `wait' (or `fg' which is alias to `wait'). To list running jobs, use command `jobs'. Some commands allow redirecting their output (cat, ls, ...) to file or via pipe to external command. Commands can be executed conditionally based on termination status of previous command (&&, ||).
+ 
+ lftp has builtin mirror which can download or update a whole directory tree. There is also reverse mirror (mirror -R) which uploads or updates a directory tree on server.
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 6153
+Filename: libattr_2.5.1-1_arm_cortex-a9.ipk
+Size: 6960
+SHA256sum: 292eb4d692e4cc88e3bf205140a0e106f87c6ecf8ba714d083a0a6d3ccda3883
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcurl4
+Version: 7.83.1-3
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: arm_cortex-a9
+Installed-Size: 154017
+Filename: libcurl4_7.83.1-3_arm_cortex-a9.ipk
+Size: 154294
+SHA256sum: 884c10691d2712d6c926fd1934d11199a7a1435020b7839abbe3907a435f9365
+Description:  A client-side URL transfer library
+
+Package: libdbus
+Version: 1.13.18-12
+Depends: libc, libpthread
+License: AFL-2.1
+Section: utils
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9
+Installed-Size: 110028
+Filename: libdbus_1.13.18-12_arm_cortex-a9.ipk
+Size: 110275
+SHA256sum: 15d6ff5462876046d2745d3d396b0f7f9287317b9813e64c968df6d3c08fe464
+Description:  Simple interprocess messaging system (library)
+
+Package: libevdev
+Version: 1.12.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 24671
+Filename: libevdev_1.12.0-1_arm_cortex-a9.ipk
+Size: 24461
+SHA256sum: 87e46491a3b36da767a487ec4a6ca295ed89dc484435a932cce30b0ab01e5185
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libexpat
+Version: 2.4.7-2
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libexpat:expat
+Architecture: arm_cortex-a9
+Installed-Size: 40082
+Filename: libexpat_2.4.7-2_arm_cortex-a9.ipk
+Size: 40904
+SHA256sum: b736ef59962ffe8b2c06f818a3f8b6e20a68eb57e33576b9a91fa6468f301f9d
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 15049
+Filename: libffi_3.4.2-2_arm_cortex-a9.ipk
+Size: 16012
+SHA256sum: b13e512200342f8cbed1fefc6ce419b8157bf01358226ed6e68e7b30898d6cdc
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libi2c
+Version: 4.3-1
+Depends: libc
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 1962
+Filename: libi2c_4.3-1_arm_cortex-a9.ipk
+Size: 2730
+SHA256sum: b7746e3b2c4165ae5d397eae4f016d061829083cfa870255eaf1434f865f3e7a
+Description:  This package contains i2c functionality needed by i2c-tools.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 31450
+Filename: libkmod_27-2_arm_cortex-a9.ipk
+Size: 32216
+SHA256sum: 178ae98e0e08ba1625ada996ea9198c99de67ea639ade3ccb7291ab390ffebae
+Description:  Linux kernel module handling (library)
+
+Package: liblxc
+Version: 4.0.12-5
+Depends: libc, lxc, libcap, libpthread, libseccomp, libopenssl1.1
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 400243
+Filename: liblxc_4.0.12-5_arm_cortex-a9.ipk
+Size: 394930
+SHA256sum: b87acbb3ec68fe6e0f3b5363774693bd407b02b845a29c65261ce1ff3bd2bc84
+Description:  LXC userspace library
+
+Package: liblzma
+Version: 5.2.5-3
+Depends: libc, libpthread
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9
+Installed-Size: 46688
+Filename: liblzma_5.2.5-3_arm_cortex-a9.ipk
+Size: 47480
+SHA256sum: ac1235bea526b6e33ab92d5eb9aae809c68c0931878ab468e730a4c63e922917
+Description:  liblzma library from XZ Utils
+
+Package: libmbim
+Version: 1.26.4-1
+Depends: libc, glib2
+License: LGPL-2.0-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 121747
+Filename: libmbim_1.26.4-1_arm_cortex-a9.ipk
+Size: 121493
+SHA256sum: dc0d73f930d487786435686baf4266eb056633b2472d5b699c55feb6894b34b2
+Description:  Helper library to talk to MBIM enabled modems.
+ Add mbim-utils for extra utilities.
+
+Package: libnetfilter-cthelper0
+Version: 1.0.0-2
+Depends: libc, libmnl0
+Provides: libnetfilter-cthelper
+License: GPL-2.0+
+Section: libs
+ABIVersion: 0
+Architecture: arm_cortex-a9
+Installed-Size: 3631
+Filename: libnetfilter-cthelper0_1.0.0-2_arm_cortex-a9.ipk
+Size: 4437
+SHA256sum: c27dde6d3dc0f274d4c3f8a04599d5d4fe3c093fdf69004c915c2c65ccaaa4de
+Description:  libnetfilter_cthelper is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking helpers. 
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-cttimeout1
+Version: 1.0.0-2
+Depends: libc, libmnl0
+Provides: libnetfilter-cttimeout
+License: GPL-2.0+
+Section: libs
+ABIVersion: 1
+Architecture: arm_cortex-a9
+Installed-Size: 3691
+Filename: libnetfilter-cttimeout1_1.0.0-2_arm_cortex-a9.ipk
+Size: 4529
+SHA256sum: b78859fa2b87fce86d0f5521325e96143ff2c5fd4bbd7deab94d827302671d27
+Description:  libnetfilter_cttimeout is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking timeout handling.
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-queue1
+Version: 1.0.5-4
+Depends: libc, libmnl0, libnfnetlink0
+Provides: libnetfilter-queue
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 1
+Architecture: arm_cortex-a9
+Installed-Size: 8569
+Filename: libnetfilter-queue1_1.0.5-4_arm_cortex-a9.ipk
+Size: 9419
+SHA256sum: ca6e415576e82cd9519444370cd8b624a4f0b80605ebb9b7ba55a8ecf4f922ca
+Description:  libnetfilter_queue is a userspace library providing a programming
+ interface (API) to packets that have been queued by the kernel
+ packet filter.
+
+Package: libnghttp2-14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+Architecture: arm_cortex-a9
+Installed-Size: 56239
+Filename: libnghttp2-14_1.44.0-1_arm_cortex-a9.ipk
+Size: 55736
+SHA256sum: 24efdcf3d25e20d68e141c43da337409dc53731334ba32fd243ce523abbf4864
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libparted
+Version: 3.4-2
+Depends: libc, libblkid1, libuuid1
+License: GPL-3.0-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 184405
+Filename: libparted_3.4-2_arm_cortex-a9.ipk
+Size: 184566
+SHA256sum: 84d9a1ed817bf36ecd375a053498d972a4b401680ff40f2b284aa505ba0fb2f5
+Description:  GNU Parted shared library
+
+Package: libpci
+Version: 3.8.0-2
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 18247
+Filename: libpci_3.8.0-2_arm_cortex-a9.ipk
+Size: 19056
+SHA256sum: 4d5ce4f96bfabe15f4e8a5ebf1566ed48fc46542f29e96c0fda8338266db1099
+Description:  Linux PCI Libraries
+
+Package: libpkgconf
+Version: 1.8.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 22845
+Filename: libpkgconf_1.8.0-1_arm_cortex-a9.ipk
+Size: 23731
+SHA256sum: 44a1c751404636f0d904935c80354c0ae9f290dc122bd28d492d5e0ead0c50be
+Description:  libpkgconf is a library which provides access to most of pkgconf’s
+ functionality, to allow other tooling such as compilers and IDEs to
+ discover and use frameworks configured by pkgconf. It features a stable
+ library ABI and API designed for building bindings and other tools.
+
+Package: libqmi
+Version: 1.30.6-1
+Depends: libc, glib2, libmbim, libqrtr-glib
+License: LGPL-2.0-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 577523
+Filename: libqmi_1.30.6-1_arm_cortex-a9.ipk
+Size: 570175
+SHA256sum: 2892ae735b1902f2b040ee1d4ddcf7f4ffe58d629d3866e6a467dabca2460b96
+Description:  Helper library talk to QMI enabled modems.
+ Add qmi-utils for extra utilities.
+
+Package: libqrtr-glib
+Version: 1.2.2-1
+Depends: libc, glib2
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 11361
+Filename: libqrtr-glib_1.2.2-1_arm_cortex-a9.ipk
+Size: 12131
+SHA256sum: 5e417cfbf7d89836ad75ce2e1585a1051964a4b95d0a3d9801ca492be436fa61
+Description:  Helper library talk to QRTR enabled modems.
+
+Package: libseccomp
+Version: 2.5.2-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Architecture: arm_cortex-a9
+Installed-Size: 43301
+Filename: libseccomp_2.5.2-1_arm_cortex-a9.ipk
+Size: 43589
+SHA256sum: 943eb9c63e97727aff3fa797f27e380d657e696dd3690be3dcbda11a7734066d
+Description:  This package contains the seccomp library.
+
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 8602
+Filename: libudev-zero_1.0.1-1_arm_cortex-a9.ipk
+Size: 9399
+SHA256sum: d18add45123be6f52b30fb4c42f26e1d89bbada97293e9ca7f9f739decae53d7
+Description:  Drop-in replacement for libudev
+
+Package: libuv1
+Version: 1.41.1-1
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Architecture: arm_cortex-a9
+Installed-Size: 55230
+Filename: libuv1_1.41.1-1_arm_cortex-a9.ipk
+Size: 55876
+SHA256sum: ed6b7cb30fa450c55423ea8bc2a2a88ca6add3680ec826983eb91e23cbf01dde
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebsockets-full
+Version: 4.2.1-2
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 159310
+Filename: libwebsockets-full_4.2.1-2_arm_cortex-a9.ipk
+Size: 159523
+SHA256sum: 99d37ed7c45fedcde70124d5428bcf312c237f0a6c083b8cce1026d2af14b502
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: libzstd
+Version: 1.5.2-1
+Depends: libc
+License: GPL-2.0-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 305744
+Filename: libzstd_1.5.2-1_arm_cortex-a9.ipk
+Size: 305989
+SHA256sum: ac0c1d2b9c3e8a6fa451fd378a6cfbd6bade1ac99fb19811d825ae406b02ce1c
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: lxc-attach
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 327636
+Filename: lxc-attach_4.0.12-5_arm_cortex-a9.ipk
+Size: 328256
+SHA256sum: 6a9e5baa13c04b1447f2495c4f85a52014b1b81ddb7a1b84f2c95f89fadc9036
+Description:  Utility lxc-attach from the LXC userspace tools
+
+Package: lxc-checkconfig
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 2930
+Filename: lxc-checkconfig_4.0.12-5_arm_cortex-a9.ipk
+Size: 3709
+SHA256sum: a2ee694a534cb059e17fbdeea3d93f9a22e1dd46858d3adc9361f90c231449ab
+Description:  Utility lxc-checkconfig from the LXC userspace tools
+
+Package: lxc-common
+Version: 4.0.12-5
+Depends: libc, lxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 737
+Filename: lxc-common_4.0.12-5_arm_cortex-a9.ipk
+Size: 1541
+SHA256sum: 19055934156275ca4b5be791743588bca34552c86720769684e15e803811cf4a
+Description:  LXC common files
+
+Package: lxc-configs
+Version: 4.0.12-5
+Depends: libc, lxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 1592
+Filename: lxc-configs_4.0.12-5_arm_cortex-a9.ipk
+Size: 2372
+SHA256sum: fc76b82dc96cc27877a836baac7755af0224da7e745304b057216942d9545975
+Description:  LXC virtual machine common config files
+
+Package: lxc-console
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 324806
+Filename: lxc-console_4.0.12-5_arm_cortex-a9.ipk
+Size: 325501
+SHA256sum: 40497fb81f3b4366907484bae72b625f587607e18b4e0dc903f993af0854f09f
+Description:  Utility lxc-console from the LXC userspace tools
+
+Package: lxc-create
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc, lxc-configs, lxc-hooks, lxc-templates, flock, getopt
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 326136
+Filename: lxc-create_4.0.12-5_arm_cortex-a9.ipk
+Size: 326716
+SHA256sum: eedc882bdaf0eeb9a68649454f49d1939b149818e4fd587362b3f470be0f2136
+Description:  Utility lxc-create from the LXC userspace tools
+
+Package: lxc-destroy
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 325730
+Filename: lxc-destroy_4.0.12-5_arm_cortex-a9.ipk
+Size: 326290
+SHA256sum: fc55f4b208de3b9b8ca855bd63cf962e0946f7a97b44964134bf823b22d0b49c
+Description:  Utility lxc-destroy from the LXC userspace tools
+
+Package: lxc-hooks
+Version: 4.0.12-5
+Depends: libc, lxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 10915
+Filename: lxc-hooks_4.0.12-5_arm_cortex-a9.ipk
+Size: 11696
+SHA256sum: 6a7d5d8e5022e0f3e0a09cb69f2cda0529fe59d3a6283c64cb685802a0c6f146
+Description:  LXC virtual machine hooks
+
+Package: lxc-info
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 327020
+Filename: lxc-info_4.0.12-5_arm_cortex-a9.ipk
+Size: 327576
+SHA256sum: 697679b05a763b647598b8634b334365ce7b47c28287675fb9b8633b3a99e617
+Description:  Utility lxc-info from the LXC userspace tools
+
+Package: lxc-ls
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 330308
+Filename: lxc-ls_4.0.12-5_arm_cortex-a9.ipk
+Size: 330850
+SHA256sum: c3cd56ab281655d9d556aee399a7974f5569ff62f8fa8dffc975fe4f7d8807dd
+Description:  Utility lxc-ls from the LXC userspace tools
+
+Package: lxc-start
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 325780
+Filename: lxc-start_4.0.12-5_arm_cortex-a9.ipk
+Size: 326457
+SHA256sum: 8a189298e09131a6d0e9ac204d879282b2e5f4dc7386e12eecef00b378e832f6
+Description:  Utility lxc-start from the LXC userspace tools
+
+Package: lxc-stop
+Version: 4.0.12-5
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 325005
+Filename: lxc-stop_4.0.12-5_arm_cortex-a9.ipk
+Size: 325586
+SHA256sum: 86382dee05171d4d2f5e4c1d2bfe784498c177593a244948edf10b25a408ae62
+Description:  Utility lxc-stop from the LXC userspace tools
+
+Package: lxc-templates
+Version: 4.0.12-5
+Depends: libc, lxc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 9449
+Filename: lxc-templates_4.0.12-5_arm_cortex-a9.ipk
+Size: 10247
+SHA256sum: 467b7d50c3ef6add118b2238d9af2b18d819075fa6bad04b8d0896855122c4d8
+Description:  LXC virtual machine templates
+
+Package: lxc
+Version: 4.0.12-5
+Depends: libc
+License: LGPL-2.1-or-later BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 105
+Filename: lxc_4.0.12-5_arm_cortex-a9.ipk
+Size: 936
+SHA256sum: 66e6667d588f97c2484e761154cc9cdc30458a7d0d52c222ea22651e07d45556
+Description:  LXC is the userspace control package for Linux Containers, a lightweight
+ virtual system mechanism sometimes described as "chroot on steroids".
+
+Package: m4
+Version: 1.4.19-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: devel
+CPE-ID: cpe:/a:gnu:m4
+Architecture: arm_cortex-a9
+Installed-Size: 93952
+Filename: m4_1.4.19-1_arm_cortex-a9.ipk
+Size: 94690
+SHA256sum: 749588940fc059ddb459d24029ba5e7f4966bcb144f5c805a1e75b223f4934e5
+Description:  GNU M4 is an implementation of the traditional Unix macro processor.
+ It is used by GNU Autoconf and Automake.
+
+Package: minicom
+Version: 2.8-2
+Depends: libc, libncurses6
+License: GPL-2.0-or-later
+Section: utils
+CPE-ID: cpe:/a:minicom:minicom
+Architecture: arm_cortex-a9
+Installed-Size: 73617
+Filename: minicom_2.8-2_arm_cortex-a9.ipk
+Size: 74440
+SHA256sum: 9d5dc0756d803dc4008560d302bbd96fae4bc6b0285a48ac8344551cb5e85f37
+Description:  Terminal emulation program
+
+Package: modemmanager
+Version: 1.18.6-2
+Depends: libc, glib2, dbus, ppp, libmbim, libqmi, libqrtr-glib
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 1160936
+Filename: modemmanager_1.18.6-2_arm_cortex-a9.ipk
+Size: 1147961
+SHA256sum: 0de50b90d882c30dc46badc93979be9fe296f6192c1add937c79d91f5f329e38
+Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
+ broadband modems. Add kernel modules for your modems as needed.
+ Select Utilities/usb-modeswitch if needed.
+
+Package: openssh-client-utils
+Version: 8.9p1-1
+Depends: libc, libopenssl1.1, zlib, openssh-client, openssh-keygen
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a9
+Installed-Size: 657652
+Filename: openssh-client-utils_8.9p1-1_arm_cortex-a9.ipk
+Size: 654745
+SHA256sum: 3865639db262cd5069fdc7c83833e470be2929a663d12af87ff882ea833442ca
+Description:  OpenSSH client utilities.
+
+Package: openssh-client
+Version: 8.9p1-1
+Depends: libc, libopenssl1.1, zlib
+Alternatives: 200:/usr/bin/ssh:/usr/libexec/ssh-openssh, 200:/usr/bin/scp:/usr/libexec/scp-openssh
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a9
+Installed-Size: 429922
+Filename: openssh-client_8.9p1-1_arm_cortex-a9.ipk
+Size: 429460
+SHA256sum: 8cbd1cbfc511bb5a6d6dcf8644353b32896596fafaf0e07bd08aad498ab91df8
+Description:  OpenSSH client.
+
+Package: openssh-keygen
+Version: 8.9p1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a9
+Installed-Size: 199459
+Filename: openssh-keygen_8.9p1-1_arm_cortex-a9.ipk
+Size: 198834
+SHA256sum: ffd1bc1cd6ddc9a9c08db38a78b73c92a4dc6b9b4e0ec211d5f3755a2ccfa037
+Description:  OpenSSH keygen.
+
+Package: parted
+Version: 3.4-2
+Depends: libc, libparted, libreadline8, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 25461
+Filename: parted_3.4-2_arm_cortex-a9.ipk
+Size: 26240
+SHA256sum: 9d6b3090afbdbb45848596e41a0ad3bba1fff08e423c5743d10d9514577a2f4f
+Description:  GNU Parted manipulates partition tables. This is useful for
+ creating space for new operating systems, reorganizing
+ disk usage, copying data on hard disks and disk imaging.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 306371
+Filename: pciids_0.359-1_arm_cortex-a9.ipk
+Size: 306647
+SHA256sum: 9c7652e8fb3358fbbaa1382cd2e327b10db49a1aeba79e33f9aea888320e1751
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.8.0-2
+Depends: libc, libkmod, libpci, pciids
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 42657
+Filename: pciutils_3.8.0-2_arm_cortex-a9.ipk
+Size: 43524
+SHA256sum: bba8e10f6f2a1e8ee430e93a1e60b0a2c30bdee2a2afb96b769e429b8edec783
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: perl
+Version: 5.28.1-7
+Depends: libc, libpthread
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 1026128
+Filename: perl_5.28.1-7_arm_cortex-a9.ipk
+Size: 1015687
+SHA256sum: ed8697f09c0c095dec528f91b5fe942a949973f02edf8e475e2228842e79465d
+Description:  Perl is a stable, cross platform programming language.
+ It is used for mission critical projects in the public and private sectors
+ and is widely used to program web applications of all needs.
+
+Package: perlbase-attributes
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 4564
+Filename: perlbase-attributes_5.28.1-7_arm_cortex-a9.ipk
+Size: 5410
+SHA256sum: 2b5d321ee038868d7557a75304e528e12d9a0819696ea7f87be49be589101816
+Description:  attributes perl module
+
+Package: perlbase-base
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 3550
+Filename: perlbase-base_5.28.1-7_arm_cortex-a9.ipk
+Size: 4378
+SHA256sum: 31b64db6427446623b5dcdd14e20e7e7a43c34e531d388338388ef3797cfd3f7
+Description:  base perl module
+
+Package: perlbase-bytes
+Version: 5.28.1-7
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 625
+Filename: perlbase-bytes_5.28.1-7_arm_cortex-a9.ipk
+Size: 1467
+SHA256sum: c67bc154fd6da97e2093089d9565a000a286946aafbc1786277e077eae38d659
+Description:  bytes perl module
+
+Package: perlbase-class
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 2259
+Filename: perlbase-class_5.28.1-7_arm_cortex-a9.ipk
+Size: 3090
+SHA256sum: 2bb84d62075e96d95e3ad8272979c01e4cb49477d6b9c92ac696e448660bbfac
+Description:  Class perl module
+
+Package: perlbase-config
+Version: 5.28.1-7
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 16937
+Filename: perlbase-config_5.28.1-7_arm_cortex-a9.ipk
+Size: 17736
+SHA256sum: 401d60568a07a31c11e473cf058dc7abf59d5728b6ad5bb5a2f74802c3ef218f
+Description:  Config perl module
+
+Package: perlbase-cwd
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 10353
+Filename: perlbase-cwd_5.28.1-7_arm_cortex-a9.ipk
+Size: 11200
+SHA256sum: e5e85aaf48c92f4b87e61c90484204495fa1a6ec60a997111ea5cc1fcf13ebb0
+Description:  Cwd perl module
+
+Package: perlbase-data
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-bytes, perlbase-essential, perlbase-scalar
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 21916
+Filename: perlbase-data_5.28.1-7_arm_cortex-a9.ipk
+Size: 22724
+SHA256sum: f0332bd524405afc88d35a6c9df4e0f302500d07357ebcfe67f3bbe0e0c4c212
+Description:  Data perl module
+
+Package: perlbase-dynaloader
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-config
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 3690
+Filename: perlbase-dynaloader_5.28.1-7_arm_cortex-a9.ipk
+Size: 4524
+SHA256sum: 266981b3c709ce48f254a77e52a2a90a5d2046a002f13d9c755a3d0161774793
+Description:  DynaLoader perl module
+
+Package: perlbase-errno
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-config, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 2438
+Filename: perlbase-errno_5.28.1-7_arm_cortex-a9.ipk
+Size: 3300
+SHA256sum: ffd99554fe426b2b8fa8ffb7bc15223c65b592fbb5925d9d4d9dee1826ebb65e
+Description:  Errno perl module
+
+Package: perlbase-essential
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-config
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 22468
+Filename: perlbase-essential_5.28.1-7_arm_cortex-a9.ipk
+Size: 23309
+SHA256sum: dcb908219450dd326e57aba024380e19115b69575e0f0ec5f00727c89b9d693f
+Description:  essential perl module
+
+Package: perlbase-fcntl
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 5622
+Filename: perlbase-fcntl_5.28.1-7_arm_cortex-a9.ipk
+Size: 6437
+SHA256sum: 99a36d29a977922a6e58d9b46f869d695cf01475e600611cfe8b3bb3ac38c642
+Description:  Fcntl perl module
+
+Package: perlbase-file
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-class, perlbase-config, perlbase-cwd, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-filehandle, perlbase-io, perlbase-locale, perlbase-params, perlbase-scalar, perlbase-symbol, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 71100
+Filename: perlbase-file_5.28.1-7_arm_cortex-a9.ipk
+Size: 72131
+SHA256sum: 31c6cf1ae5565b034561dae8f97a8d1b50830f9b0e05cfbfbadca0e6c4528743
+Description:  File perl module
+
+Package: perlbase-filehandle
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-io
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 1008
+Filename: perlbase-filehandle_5.28.1-7_arm_cortex-a9.ipk
+Size: 1867
+SHA256sum: c8e0a04b4095994a6b2d0e4b40be2b3a737122489235c5a83568756a21456e99
+Description:  FileHandle perl module
+
+Package: perlbase-getopt
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 13223
+Filename: perlbase-getopt_5.28.1-7_arm_cortex-a9.ipk
+Size: 14083
+SHA256sum: 6266dc23ba4d498a229b56ccec2a705108fdc39cb5f0aa2549cc59dbce02bebe
+Description:  Getopt perl module
+
+Package: perlbase-i18n
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-posix, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 19807
+Filename: perlbase-i18n_5.28.1-7_arm_cortex-a9.ipk
+Size: 20680
+SHA256sum: 3b669b6db20e4ef291755665a727e6585915aa372cab644b983b216a7081d726
+Description:  I18N perl module
+
+Package: perlbase-integer
+Version: 5.28.1-7
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 317
+Filename: perlbase-integer_5.28.1-7_arm_cortex-a9.ipk
+Size: 1154
+SHA256sum: d9a6a054cb223b8d4599d50999b9f16a2e053ba98768bc80ff497488771da9f2
+Description:  integer perl module
+
+Package: perlbase-io
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-base, perlbase-bytes, perlbase-config, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-list, perlbase-posix, perlbase-scalar, perlbase-selectsaver, perlbase-socket, perlbase-symbol, perlbase-tie, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 67367
+Filename: perlbase-io_5.28.1-7_arm_cortex-a9.ipk
+Size: 68363
+SHA256sum: db589715b2070933226ad229819c0abd3cd2c4a728d897d967c02d7b2e455e72
+Description:  IO perl module
+
+Package: perlbase-list
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 17739
+Filename: perlbase-list_5.28.1-7_arm_cortex-a9.ipk
+Size: 18581
+SHA256sum: 4d361c288ed08b874df48ccf570cb6e03dbcfa828ba15405f5597bdb466df536
+Description:  List perl module
+
+Package: perlbase-locale
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-i18n, perlbase-integer, perlbase-utf8
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 337510
+Filename: perlbase-locale_5.28.1-7_arm_cortex-a9.ipk
+Size: 310232
+SHA256sum: b08c63a7719e178e3d97d8703c96c9dcff77edaff966e7f2961d3d5777ba123d
+Description:  Locale perl module
+
+Package: perlbase-params
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-locale
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 3283
+Filename: perlbase-params_5.28.1-7_arm_cortex-a9.ipk
+Size: 4123
+SHA256sum: 56e5662e1d370d1e2ca79683278468615a7c01db2d18e62c826a4172aa7f815e
+Description:  Params perl module
+
+Package: perlbase-posix
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-tie, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 37631
+Filename: perlbase-posix_5.28.1-7_arm_cortex-a9.ipk
+Size: 38275
+SHA256sum: e2e5f219597835ae0bf02bd1e4636bbd80f97f578303748aba3ddcdfa5191398
+Description:  POSIX perl module
+
+Package: perlbase-re
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 221812
+Filename: perlbase-re_5.28.1-7_arm_cortex-a9.ipk
+Size: 222434
+SHA256sum: ea80bed912666a9758053134fc9ac3d867e9f5ba01eae75bfb333ef03d9a388d
+Description:  re perl module
+
+Package: perlbase-scalar
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-list
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 996
+Filename: perlbase-scalar_5.28.1-7_arm_cortex-a9.ipk
+Size: 1836
+SHA256sum: 85a227ba0853730d2ed319815e216dbb8bd9bcfdfde4454026b5a894d40d0268
+Description:  Scalar perl module
+
+Package: perlbase-selectsaver
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-symbol
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 438
+Filename: perlbase-selectsaver_5.28.1-7_arm_cortex-a9.ipk
+Size: 1290
+SHA256sum: da5667aded726e01a40c495cb2c6dfc78cd5ea4273955c37553f66bb9fbd287d
+Description:  SelectSaver perl module
+
+Package: perlbase-selfloader
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-io
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 2410
+Filename: perlbase-selfloader_5.28.1-7_arm_cortex-a9.ipk
+Size: 3245
+SHA256sum: e38ad3101a815f42d5ea1afed28d7988dffe573fac9b861832aaa0ba50c3bbc2
+Description:  SelfLoader perl module
+
+Package: perlbase-socket
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 16932
+Filename: perlbase-socket_5.28.1-7_arm_cortex-a9.ipk
+Size: 17743
+SHA256sum: ad658fef009c1fe0a2b8c4611080114de0b04d332c317db1394e8ebf33726bcf
+Description:  Socket perl module
+
+Package: perlbase-symbol
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 1116
+Filename: perlbase-symbol_5.28.1-7_arm_cortex-a9.ipk
+Size: 1969
+SHA256sum: ac529780fc90a2edcb4644fcc41082be45531c3265b017a50c12fcb5e3206b2c
+Description:  Symbol perl module
+
+Package: perlbase-text
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-selfloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 10800
+Filename: perlbase-text_5.28.1-7_arm_cortex-a9.ipk
+Size: 11656
+SHA256sum: 65bf888832a41cd1e932179abc0a110dffdc0378ffba028161adabacba2fdde6
+Description:  Text perl module
+
+Package: perlbase-thread
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-scalar, perlbase-threads
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 2570
+Filename: perlbase-thread_5.28.1-7_arm_cortex-a9.ipk
+Size: 3424
+SHA256sum: d47000e7567566910831972b754918e60cd1dc9d3464477bbf941207edef81b4
+Description:  Thread perl module
+
+Package: perlbase-threads
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-scalar, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 29846
+Filename: perlbase-threads_5.28.1-7_arm_cortex-a9.ipk
+Size: 30659
+SHA256sum: 5f84afc1d1eee587d5ebb4738b73fb7d50bfe1dab5c54154a0a23223838ab09a
+Description:  threads perl module
+
+Package: perlbase-tie
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 21518
+Filename: perlbase-tie_5.28.1-7_arm_cortex-a9.ipk
+Size: 22368
+SHA256sum: 2af2ee526dbdc990b83dea37250b12324460545de62bd8e29cd2583a91c40efd
+Description:  Tie perl module
+
+Package: perlbase-unicore
+Version: 5.28.1-7
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 668497
+Filename: perlbase-unicore_5.28.1-7_arm_cortex-a9.ipk
+Size: 622290
+SHA256sum: 84db616ad403d97b632be0f50720da1d4d7cb3decf9c2bc1a68db697d65b9465
+Description:  unicore perl module
+
+Package: perlbase-utf8
+Version: 5.28.1-7
+Depends: libc, perl, perlbase-essential, perlbase-re, perlbase-unicore
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 8889
+Filename: perlbase-utf8_5.28.1-7_arm_cortex-a9.ipk
+Size: 9770
+SHA256sum: 8567af849e00cc77d2b2c52b008b0df22bdd712354bf2b8a7346d3a775e41ca3
+Description:  utf8 perl module
+
+Package: perlbase-xsloader
+Version: 5.28.1-7
+Depends: libc, perl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9
+Installed-Size: 1733
+Filename: perlbase-xsloader_5.28.1-7_arm_cortex-a9.ipk
+Size: 2583
+SHA256sum: 8aed1b9c6bf60d6ab88e14405c80806547759db578daa8863616ea70afac5177
+Description:  XSLoader perl module
+
+Package: picocom
+Version: 3.1-5
+Depends: libc
+License: LICENSE.txt
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 19797
+Filename: picocom_3.1-5_arm_cortex-a9.ipk
+Size: 20530
+SHA256sum: fb0f32d6b97342fe7e1e974f33e0b8780a297190dffc38fb6fe27ea0849177b8
+Description:  minimal dumb-terminal emulation program
+
+Package: pkgconf
+Version: 1.8.0-1
+Depends: libc, libpkgconf
+License: MIT
+Section: devel
+Architecture: arm_cortex-a9
+Installed-Size: 11805
+Filename: pkgconf_1.8.0-1_arm_cortex-a9.ipk
+Size: 12600
+SHA256sum: 74f5ba925b64826a1819f4b8ce3c40567ca09d5f6a343be036866a01424a60c1
+Description:  pkgconf is a program which helps to configure compiler and linker flags
+ for development frameworks. It is similar to pkg-config from
+ freedesktop.org, providing additional functionality while also
+ maintaining compatibility.
+
+Package: rpcd-mod-lxc
+Version: 20201208
+Depends: libc, rpcd, liblxc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 2808
+Filename: rpcd-mod-lxc_20201208_arm_cortex-a9.ipk
+Size: 3589
+SHA256sum: ba0fc0aa8054a87ae77764449d02156ebab65ef1914b569ac5b6e1d8d15ebc68
+Description:  LXC rpcd module
+
+Package: shadow-chage
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 19130
+Filename: shadow-chage_4.8.1-3_arm_cortex-a9.ipk
+Size: 19943
+SHA256sum: e53c4e8ebb2643f174f85e4e301038268e81fd214d264bcdc589216636abaf4d
+Description:  Full version of standard chage utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chfn
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 52580
+Filename: shadow-chfn_4.8.1-3_arm_cortex-a9.ipk
+Size: 52700
+SHA256sum: 5cac4187da15bf57f233c420b8bebb5bbfb550c56bf4fcedefe4f7fb9a688a1f
+Description:  Full version of standard chfn utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chgpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 54331
+Filename: shadow-chgpasswd_4.8.1-3_arm_cortex-a9.ipk
+Size: 54480
+SHA256sum: ba33e618a83fb62b98d506130afab20897dcb3a6555fe9487267245c34aee8d8
+Description:  Full version of standard chgpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 52503
+Filename: shadow-chpasswd_4.8.1-3_arm_cortex-a9.ipk
+Size: 52468
+SHA256sum: 9fd1343ca3956fc122d92bb5f9a996791acb260bbdd414dd73cf924ff138030a
+Description:  Full version of standard chpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chsh
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 51523
+Filename: shadow-chsh_4.8.1-3_arm_cortex-a9.ipk
+Size: 51554
+SHA256sum: 599187fb9dbad053ff70147f693ab723d80753336aea4e2072e8f71393a1d3fc
+Description:  Full version of standard chsh utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-common
+Version: 4.8.1-3
+Depends: libc
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 4952
+Filename: shadow-common_4.8.1-3_arm_cortex-a9.ipk
+Size: 5742
+SHA256sum: d1b7c2952b9156bbb5dc050cd21b60d5ffc2a90eb76d0fde8210646d86cf3bef
+Description:  Shared definitions for the PLD Linux shadow utilities
+
+Package: shadow-expiry
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 8392
+Filename: shadow-expiry_4.8.1-3_arm_cortex-a9.ipk
+Size: 9273
+SHA256sum: db0fc836ad3640a3bfa4fa035eea7b9980c3d50bdf81d820a87562451ca47d17
+Description:  Full version of standard expiry utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-faillog
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 5483
+Filename: shadow-faillog_4.8.1-3_arm_cortex-a9.ipk
+Size: 6323
+SHA256sum: e0522d3122e593975a90524ce600889950b74517b7fdaab0c7a9eec409e270d2
+Description:  Full version of standard faillog utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-gpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 57412
+Filename: shadow-gpasswd_4.8.1-3_arm_cortex-a9.ipk
+Size: 57352
+SHA256sum: 35138a9fc98081a0c76088a2c202bab6fb0fdfb8f561edb4e74de25e35c4b697
+Description:  Full version of standard gpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupadd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 19244
+Filename: shadow-groupadd_4.8.1-3_arm_cortex-a9.ipk
+Size: 20044
+SHA256sum: 7b07199d6d8052615258c6c68438c7a68c5156cd0f54e54c3ad356cb93dc0538
+Description:  Full version of standard groupadd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupdel
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 17469
+Filename: shadow-groupdel_4.8.1-3_arm_cortex-a9.ipk
+Size: 18271
+SHA256sum: e0c72fc9cca8c96b12ce507596d0f4bd7290be0765f6c252e28057d5411fd649
+Description:  Full version of standard groupdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupmems
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 14668
+Filename: shadow-groupmems_4.8.1-3_arm_cortex-a9.ipk
+Size: 15448
+SHA256sum: 17b239ed354166fa34b02d6cfa6e3628593fb9f59ac93579353bd9405f700760
+Description:  Full version of standard groupmems utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupmod
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 19612
+Filename: shadow-groupmod_4.8.1-3_arm_cortex-a9.ipk
+Size: 20421
+SHA256sum: 93f61fff7f0baa5ea46327f09163387d28963fc951a15aa4ed06831f7a0ae9d1
+Description:  Full version of standard groupmod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groups
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 2526
+Filename: shadow-groups_4.8.1-3_arm_cortex-a9.ipk
+Size: 3340
+SHA256sum: 217c46d00d3bdccf689f23815414a3349157ca1b9bbb48e4f21e8d539610f79f
+Description:  Full version of standard groups utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpck
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 14696
+Filename: shadow-grpck_4.8.1-3_arm_cortex-a9.ipk
+Size: 15503
+SHA256sum: 60b92b559807f5c3ec943c32c8c3203b9067c6f7753411837e660fdb2dd430d7
+Description:  Full version of standard grpck utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 13058
+Filename: shadow-grpconv_4.8.1-3_arm_cortex-a9.ipk
+Size: 13868
+SHA256sum: 7a89bbf9d57467b5bbe21334b9c8ba69c5d323a184af2db6351481af9f543b14
+Description:  Full version of standard grpconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpunconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 12981
+Filename: shadow-grpunconv_4.8.1-3_arm_cortex-a9.ipk
+Size: 13793
+SHA256sum: bf4bc66fd9ab88ed0e73b0a970775eeaca45a8bfd3ec0a7885a27a0600b420ac
+Description:  Full version of standard grpunconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-lastlog
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 6639
+Filename: shadow-lastlog_4.8.1-3_arm_cortex-a9.ipk
+Size: 7514
+SHA256sum: 951c622fef94cf4f218b7de7bbfb47fd122e2dd8c43f1f6e9ea844783f0f39c3
+Description:  Full version of standard lastlog utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-login
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 58727
+Filename: shadow-login_4.8.1-3_arm_cortex-a9.ipk
+Size: 58819
+SHA256sum: 1b9e653c3e48f2a8d0a31c9636a7f2c46ff62d5fdea5eb402c0f637bff0b4be8
+Description:  Full version of standard login utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-logoutd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 3537
+Filename: shadow-logoutd_4.8.1-3_arm_cortex-a9.ipk
+Size: 4351
+SHA256sum: 65a0bd5e12e050f58f6599ff7afccf09fcb0bff3edfc6949804d746d55331206
+Description:  Full version of standard logoutd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newgidmap
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 10268
+Filename: shadow-newgidmap_4.8.1-3_arm_cortex-a9.ipk
+Size: 11111
+SHA256sum: b38798099229a13244ae91158df838f4e4ad99e477f7aa54290c67eee2eb7622
+Description:  Full version of standard newgidmap utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newgrp
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 47508
+Filename: shadow-newgrp_4.8.1-3_arm_cortex-a9.ipk
+Size: 47578
+SHA256sum: 8c405d5a199c27218b982fb973ea3acfd4a82f06212671cb6cee00b8576e0b44
+Description:  Full version of standard newgrp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newuidmap
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 9835
+Filename: shadow-newuidmap_4.8.1-3_arm_cortex-a9.ipk
+Size: 10666
+SHA256sum: c6d048af2d10e9dcc2a98fda3307aaa0a7d8d5dfa326e2a1db288510c6788aa1
+Description:  Full version of standard newuidmap utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newusers
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 61123
+Filename: shadow-newusers_4.8.1-3_arm_cortex-a9.ipk
+Size: 61288
+SHA256sum: 6fe17a197c3d1b46b7196c4dd4aa621ffdd426d043efea234b5f2151794d0d64
+Description:  Full version of standard newusers utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-nologin
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 1281
+Filename: shadow-nologin_4.8.1-3_arm_cortex-a9.ipk
+Size: 2131
+SHA256sum: 88e3079d31c43017d76827548a1efb308bc84f4c5372cff06ded76569935c804
+Description:  Full version of standard nologin utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-passwd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 56999
+Filename: shadow-passwd_4.8.1-3_arm_cortex-a9.ipk
+Size: 57067
+SHA256sum: 43056604a2afcb0d8f7f6733e5006c67dac0ef91ec44cf40fd75ad9567945a10
+Description:  Full version of standard passwd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwck
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 13699
+Filename: shadow-pwck_4.8.1-3_arm_cortex-a9.ipk
+Size: 14443
+SHA256sum: 9f128a34c9d29f393b4564f2f46deb5460da94bd90aa6d1b52b9fe0c78022fd9
+Description:  Full version of standard pwck utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 12113
+Filename: shadow-pwconv_4.8.1-3_arm_cortex-a9.ipk
+Size: 12933
+SHA256sum: 1ab9ea0e558359d1a1bc22bf3b0198bd024751db4bcfe6e235f4ce56c408d032
+Description:  Full version of standard pwconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwunconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 11332
+Filename: shadow-pwunconv_4.8.1-3_arm_cortex-a9.ipk
+Size: 12193
+SHA256sum: 2653dbfe992e6d9846f17d86dd7e5f13ba1c8e6ee0acb0d8b5a0ded546db91fe
+Description:  Full version of standard pwunconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-su
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 55053
+Filename: shadow-su_4.8.1-3_arm_cortex-a9.ipk
+Size: 55079
+SHA256sum: 3bd39ed1b30b3aad10fdc7f7d722bb240abf8d7dbe6ef5883107e740958dd4ce
+Description:  Full version of standard su utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-useradd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 34061
+Filename: shadow-useradd_4.8.1-3_arm_cortex-a9.ipk
+Size: 34838
+SHA256sum: eab2a456d4dca61c7469d5783e98ae2449a936625308dc92dc6f0f96ad73dabe
+Description:  Full version of standard useradd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-userdel
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 20884
+Filename: shadow-userdel_4.8.1-3_arm_cortex-a9.ipk
+Size: 21613
+SHA256sum: b6d805691064126530bd269737d60a017d42ba38cd81e5ec7eb80772b5be417c
+Description:  Full version of standard userdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-usermod
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 32528
+Filename: shadow-usermod_4.8.1-3_arm_cortex-a9.ipk
+Size: 33364
+SHA256sum: 8e7d60a86fcfd7d04f01c26265c9fa9df9533d6600819f84be00c95d35a64a0e
+Description:  Full version of standard usermod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-utils
+Version: 4.8.1-3
+Depends: libc
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 105
+Filename: shadow-utils_4.8.1-3_arm_cortex-a9.ipk
+Size: 934
+SHA256sum: 6f1e424b567734d19983de562a1cd79acc67ed26c5af3338e9d99fd42100b71c
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
+Package: shadow-vipw
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 15717
+Filename: shadow-vipw_4.8.1-3_arm_cortex-a9.ipk
+Size: 16494
+SHA256sum: d8d9d01967e0575c80b4e0dc56e19e04f2d108157dd0a9a62bdf6aeff718cb63
+Description:  Full version of standard vipw utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow
+Version: 4.8.1-3
+Depends: libc, shadow-chage, shadow-chfn, shadow-chgpasswd, shadow-chpasswd, shadow-chsh, shadow-expiry, shadow-faillog, shadow-gpasswd, shadow-groupadd, shadow-groupdel, shadow-groupmems, shadow-groupmod, shadow-groups, shadow-grpck, shadow-grpconv, shadow-grpunconv, shadow-lastlog, shadow-login, shadow-logoutd, shadow-newgidmap, shadow-newgrp, shadow-newuidmap, shadow-newusers, shadow-nologin, shadow-passwd, shadow-pwck, shadow-pwconv, shadow-pwunconv, shadow-su, shadow-useradd, shadow-userdel, shadow-usermod, shadow-vipw
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9
+Installed-Size: 105
+Filename: shadow_4.8.1-3_arm_cortex-a9.ipk
+Size: 1085
+SHA256sum: 7c44a1061618399b5c060293a656415f9d2902c30ef6dc193266713a2bc52922
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
+Package: smartd
+Version: 7.2-2
+Depends: libc, libstdcpp6
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 134830
+Filename: smartd_7.2-2_arm_cortex-a9.ipk
+Size: 135611
+SHA256sum: b8f097cd5fe50fcf3a3965a839d9eb9ea0dad291da33484f8da14c8802a208b3
+Description:  smartmontools contains utility programs (smartd) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: smartmontools
+Version: 7.2-2
+Depends: libc, libstdcpp6
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 203177
+Filename: smartmontools_7.2-2_arm_cortex-a9.ipk
+Size: 204061
+SHA256sum: 97e3082878a99029f42ac6a058890f0db444647f0eb55398586649ce6f2c0794
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: sshpass
+Version: 1.09-1
+Depends: libc
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 4610
+Filename: sshpass_1.09-1_arm_cortex-a9.ipk
+Size: 5449
+SHA256sum: af489978aefcda032f5673adf1c23a5dcd80e7ce11ffa2e5995003e5cf2baacb
+Description:  Sshpass is a tool for non-interactively performing password authentication
+ with SSH's so-called "interactive keyboard password authentication". Most user
+ should use SSH's more secure public-key authentication instead.
+
+Package: tar
+Version: 1.34-1
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:tar
+Architecture: arm_cortex-a9
+Installed-Size: 184495
+Filename: tar_1.34-1_arm_cortex-a9.ipk
+Size: 185172
+SHA256sum: c49699cc26e465c600c78d5312f137da949a114563aa828a96550ae841413233
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: ttyd
+Version: 1.6.3-3
+Depends: libc, libopenssl1.1, libjson-c5, libuv1, zlib, libwebsockets-full
+License: MIT
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 247173
+Filename: ttyd_1.6.3-3_arm_cortex-a9.ipk
+Size: 247798
+SHA256sum: c37ae5f97faaa2cf92bb42a503a335547e29aca6073acef511014827be620912
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: uledd
+Version: 2020-09-15-21d14d95-2
+Depends: libc, libubox20220515, libubus20220601, libblobmsg-json20220515, libjson-c5
+License: LGPL-2.1-only
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 6150
+Filename: uledd_2020-09-15-21d14d95-2_arm_cortex-a9.ipk
+Size: 6968
+SHA256sum: 6fa4020a9179bf60fdf8834729d7b19b4b6f41cc19d21333f76ca376585f7174
+Description:  PWM/RGB LED ubus frontend
+
+Package: usbids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 251059
+Filename: usbids_0.359-1_arm_cortex-a9.ipk
+Size: 251547
+SHA256sum: 77fbf826b67e53106499fabe5451e3e401004db09a53aa81f8e5efe263afb618
+Description:  USB ID list
+
+Package: usbutils
+Version: 014-1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread
+License: GPL-2.0-only
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 53399
+Filename: usbutils_014-1_arm_cortex-a9.ipk
+Size: 54079
+SHA256sum: da39ff269a9b60313fc4d0fe538cf9483f9d7303e73c835445bdd66114e0f008
+Description:  USB devices listing utilities
+
+Package: v2raya
+Version: 1.5.9.1698.1-1
+Depends: libc, ca-bundle, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 9222606
+Filename: v2raya_1.5.9.1698.1-1_arm_cortex-a9.ipk
+Size: 9196572
+SHA256sum: 7c1c0667109e10ca6a3040b0d0d094e1f1427cc87c761101f86341102d0f7f44
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
+
+Package: xl2tpd
+Version: 1.3.16-2
+Depends: libc, ppp-mod-pppol2tp, resolveip
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 46689
+Filename: xl2tpd_1.3.16-2_arm_cortex-a9.ipk
+Size: 47648
+SHA256sum: 3617a8587902fcd28e186eda11720a8ad08aefd41539bc576fb4ee7f2df6629d
+Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
+ It does implement both LAC and LNS role in a L2TP networking architecture. The
+ main goal of this protocol is to tunnel PPP frame trough an IP network.
+
+Package: xray-core
+Version: 1.5.9-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 7408772
+Filename: xray-core_1.5.9-1_arm_cortex-a9.ipk
+Size: 7399297
+SHA256sum: 702491bcb8b81c13cf068fcca71df3a5b417e573417697df421b841591a3037e
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xz-utils
+Version: 5.2.5-3
+Depends: libc
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9
+Installed-Size: 105
+Filename: xz-utils_5.2.5-3_arm_cortex-a9.ipk
+Size: 865
+SHA256sum: 763ebd757bd5ebd72d0077e2dcd2a6059b87d941583e81a32a698c323fae7eb6
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Alternatives: 300:/usr/bin/xz:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzcat:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unlzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unxz:/usr/libexec/xz-lzmautils, 300:/usr/bin/xzcat:/usr/libexec/xz-lzmautils
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9
+Installed-Size: 26870
+Filename: xz_5.2.5-3_arm_cortex-a9.ipk
+Size: 27660
+SHA256sum: f95838e9ea592dce84e8a9cfea4a93c25e4ed5a11cd710394c609d89304a810a
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+
